@@ -2,9 +2,13 @@
 
 ### Michael Hersche, Mustafa Zeqiri, Luca Benini, Abu Sebastian, Abbas Rahimi
 
+[![DOI](https://zenodo.org/badge/587315616.svg)](https://zenodo.org/badge/latestdoi/587315616)
+
 _Nature Machine Intelligence'23_
 
 This library implements the VSA functionalities of the paper "A Neuro-vector-symbolic Architecture for Solving Raven's Progressive Matrices". A complete example for solving RAVEN can be found [[here]](https://github.com/IBM/neuro-vsa-demo) 
+
+
 
 ## [[Preprint]](https://arxiv.org/pdf/2203.04571.pdf)
 
