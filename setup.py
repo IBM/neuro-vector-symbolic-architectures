@@ -5,6 +5,6 @@
 
 from setuptools import setup
 
-setup(name='neuro_vsa', version='0.1', description='NVSA frontend and backend implementation',
-      url='http://github.com/IBM/neuro-vsa', author='Michael Hersche', 
-      packages=['neuro_vsa'], install_requires=['pytorch'], zip_safe=False)
+setup(name='nvsa', version='0.1', description='NVSA frontend and backend implementation',
+      url='http://github.com/IBM/neuro-vector-symbolic-architectures', author='Michael Hersche', 
+      packages=['nvsa'], install_requires=['pytorch'], zip_safe=False)

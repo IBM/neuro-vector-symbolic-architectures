@@ -11,7 +11,13 @@ EPS = 10 ** (-20)
 ######################################### PGM of detectors and executors ########################### 
 class vsa_rule_detector_PGM(object):
     def __init__(self,detector_act="threshold",detector_m=-1, detector_s=1,**kwargs):
-        self.match_act = t.nn.Threshold(detector_m,0) if detector_act == "threshold" else getattr(t.nn, detector_act)()
+        
+        if detector_act == "threshold": 
+            self.match_act = t.nn.Threshold(detector_m,0)
+        elif detector_act == "hardtanh": 
+            self.match_act = t.nn.Hardtanh(0,1)
+        else: 
+            self.match_act = getattr(t.nn, detector_act)()
         self.pmf2vec = pmf2vec
 
     def union(self,p_vsa_d): 
