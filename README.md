@@ -1,4 +1,4 @@
-# NVSA 
+# Neuro-vector-symbolic architectures
 
 ### Michael Hersche, Mustafa Zeqiri, Luca Benini, Abu Sebastian, Abbas Rahimi
 
