@@ -10,7 +10,7 @@ This library implements the NVSA functionalities of the paper "A Neuro-vector-sy
 
 
 
-## [[Preprint]](https://arxiv.org/pdf/2203.04571.pdf)
+## [[Paper]](https://www.nature.com/articles/s42256-023-00630-8)[[Preprint]](https://arxiv.org/abs/2203.04571)
 
 ## Module Installation
 
@@ -55,8 +55,8 @@ If you use the work released here for your research, please cite the preprint of
 @article{hersche2022neuro,
   title={A Neuro-vector-symbolic Architecture for Solving Raven's Progressive Matrices},
   author={Hersche, Michael and Zeqiri, Mustafa and Benini, Luca and Sebastian, Abu and Rahimi, Abbas},
-  journal={arXiv preprint arXiv:2203.04571},
-  year={2022}
+  journal={Nat Mach Intell},
+  year={2023}
 }
 ```
 
