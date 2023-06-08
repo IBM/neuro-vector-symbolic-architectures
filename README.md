@@ -24,17 +24,17 @@ As a prerequisite you should have already installed `torch` and `numpy`.
 To install module from GitHub use one of:
 ```bash
 # Install using ssh
-pip install git+git@github.com:IBM/neuro-vector-symbolic-architectures.git
+pip install git+git@github.com/IBM/neuro-vector-symbolic-architectures.git
 # Install using https
-pip install git+https://github.com:IBM/neuro-vector-symbolic-architectures.git
+pip install git+https://github.com/IBM/neuro-vector-symbolic-architectures.git
 ```
 
 If you already have pytorch installed you might want to additionally use `--no-dependencies` flag:
 ```bash
 # Install using ssh, without dependencies
-pip install git+git@github.com:IBM/neuro-vector-symbolic-architectures.git --no-dependencies
+pip install git+git@github.com/IBM/neuro-vector-symbolic-architectures.git --no-dependencies
 # Install using ssh, without dependencies
-pip install git+https://github.com:IBM/neuro-vector-symbolic-architectures.git --no-dependencies
+pip install git+https://github.com/IBM/neuro-vector-symbolic-architectures.git --no-dependencies
 ```
 
 ### From local repository
